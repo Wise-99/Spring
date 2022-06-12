@@ -50,10 +50,10 @@ public class BoardVO {
 	public void setViewcnt(int viewcnt) {
 		this.viewcnt = viewcnt;
 	}
+	
 	public BoardVO() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	
 	
 }

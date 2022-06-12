@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.inhatc.domain.BoardVO;
 import com.inhatc.domain.Criteria;
-
+import com.inhatc.domain.SearchCriteria;
 
 public interface BoardDAO {
 
@@ -26,5 +26,8 @@ public interface BoardDAO {
   
   //use for dynamic sql
   
+  public List<BoardVO> listSearch(SearchCriteria cri)throws Exception;
+  
+  public int listSearchCount(SearchCriteria cri)throws Exception;
 
 }
